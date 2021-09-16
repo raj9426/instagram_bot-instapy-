@@ -2,7 +2,7 @@ from instapy import InstaPy
 from instapy import smart_run
 
 my_username = 'shakthi_raj01'
-my_password = 'asdfghjkl@2001'
+my_password = 'pwsd hidden'
 
 session = InstaPy(username = my_username,password= my_password,headless_browser = False)
 
@@ -13,4 +13,4 @@ with smart_run(session):
     session.set_do_follow(True, percentage=100)
     session.set_dont_like(['nsfw','kia','ford'])
 
-    session.like_by_tags(['spacex','tesla','isro','mylyfmyrulz'], amount=10)
+    session.like_by_tags(['spacex','tesla','isro','single'], amount=10)
